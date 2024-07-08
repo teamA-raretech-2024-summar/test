@@ -6,9 +6,11 @@ export default function Home() {
     <div className="flex flex-col  h-screen w-full bg-gradient-to-b from-yellow-300 to-green-500">
       <Header />
       <div className="flex h-full">
-        <div className="h-full  border-r-2  w-1/12"></div>
+        <div className="h-full  border-r-2  w-16 "></div>
         <div className="flex flex-col h-full flex-1">
-          <div className="h-12 border-b-2 "></div>
+          <div className="h-12 border-b-2 flex items-center  justify-center">
+            <h2 className="text-xl ">旅行一覧</h2>
+          </div>
           <div className="flex-1 grid grid-cols-3 py-20 px-14 gap-12">
             <div className="bg-blue-500 bg-opacity-50 rounded-lg shadow-lg"></div>
             <div className="bg-blue-500 bg-opacity-50 rounded-lg shadow-lg"></div>
